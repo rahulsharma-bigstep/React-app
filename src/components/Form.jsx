@@ -54,12 +54,6 @@ const Form = () => {
       <div className="form-header">
         <h1>Product Finder</h1>
         <p>Search through thousands of products</p>
-
-        {exchangeRate > 0 && (
-          <small>
-            1 USD = ₹{exchangeRate.toFixed(2)}
-          </small>
-        )}
       </div>
 
       <form className="search-form" onSubmit={submitHandler}>
